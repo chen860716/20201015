@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>coffee</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<!-- Start of first page -->
+<div data-role="page" id="coffeemenu">
+
+	<div data-role="header" rel="external">
+		<h1>coffee</h1>
+		<a href="#menu" class="ui=btn ui corner-all ui-mini footer"></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" style="height:100%; text-align: center;">
+		<ul data-role="listview" data-inset="true">
+			<li>
+				<a href="#Vacuum coffee">
+				<img src="coffee/c1.png">
+				<span class="ui-li-count">100</span>
+				<h2>Vacuum coffee</h2>
+			</li>
+			<li>
+				<a href="#">
+				<img src="coffee/c2.png">
+				<span class="ui-li-count">120</span>
+				<h2>LATTE</h2>
+			</li>
+			<li>
+				<a href="#">
+				<img src="coffee/c3.png">
+				<span class="ui-li-count">200</span>
+				<h2>CAPPUCCINO</h2>
+			</li>
+			<li>
+				<a href="#">
+				<img src="coffee/c4.png">
+				<span class="ui-li-count">190</span>
+				<h2>Ice coffee</h2>
+			</li>
+		</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+	<div data-role="footer">
+		<h4>footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="Vacuum coffee">
+
+	<div data-role="header" data-POSITION="fixed">
+			<h1>Vacuum coffee</h1>
+			<a href="#coffeemenu" class="ui=btn ui corner-all ui-mini footer"></a>
+		</div><!-- /header -->
+		
+		<div role="main" class="ui-content" style="text-align: center">
+			<img src="coffee/c1.png" width="70%">
+			<p><a href="#coffeemenu">Back to menu</a></p>
+		</div><!-- /content -->
+		
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
